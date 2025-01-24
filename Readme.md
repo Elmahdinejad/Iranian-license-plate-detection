@@ -8,13 +8,18 @@ This project implements a simple pipeline for detecting license plates in images
 
 ## Key Components
 
-** Libraries Used:**
+**Libraries Used:**
 
 cv2: OpenCV for image processing.
+
 numpy: For numerical operations.
+
 easyocr: For performing OCR on license plates.
+
 matplotlib.pyplot: For displaying images.
+
 Haar Cascade for License Plate Detection:
+
 
 The project employs a Haar cascade classifier specifically for recognizing Russian license plates. This is loaded using OpenCV's cv2.CascadeClassifier.
 Image Loading:
